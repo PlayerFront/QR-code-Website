@@ -16,17 +16,18 @@
 html {
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 93.75%;
 }
 h1 {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.4667rem;
     color: var(--color-slate-900);
-    line-height: 120%;
+    line-height: 1.2;
 }
 p {
     color: var(--color-slate-500);
-    line-height: 140%;
+    line-height: 1.4;
+    font-size: 1rem;
 }
 body {
     background-color: var(--color-slate-300);
@@ -43,11 +44,16 @@ body {
     text-align: center;
     padding: 16px;
 }
+.qr-code__img {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+}
 .container__title {
-    margin-top: 24px;
+    margin-block-start: 24px;
     padding: 0 16px;
 }
 .container__description {
-    margin-top: 16px;
+    margin-block-start: 16px;
     padding: 0 16px;
 }
